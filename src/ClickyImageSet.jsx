@@ -21,7 +21,7 @@ class ClickyImageSet extends Component{
 
       render() {
         return (
-          <dv>
+          <div>
               {this.state.images.map(image =>(<ClickyImage nametag={image} onClick="myFunction" />))}   
           </div>
         );
