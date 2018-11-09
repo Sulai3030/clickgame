@@ -8,11 +8,11 @@ class ClickyImage extends Component {
         }
       }
 
-      
+
 
     render () {
         return (
-          <img src={this.props.nametag} style={{margin:5}}/>
+          <img src={this.props.nametag} style={{margin:5}} onClick={this.props.increaseScore} alt="3.jpg"/>
         )
     }
 }

@@ -15,14 +15,14 @@ class ClickyImageSet extends Component{
         }
       }
 
-      myFunction () {
-          this.state.images;
-      }
+    //   myFunction () {
+    //       this.state.images
+    //   }
 
       render() {
         return (
           <div>
-              {this.state.images.map(image =>(<ClickyImage nametag={image} onClick="myFunction" />))}   
+              {this.state.images.map((image, index) =>(<ClickyImage key={index} nametag={image} increaseScore={this.props.incScore} />))}   
           </div>
         );
       }
