@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://sulai3030.github.io/clickgame",
+  "engines":{
+    "npm":"5.7.1",
+    "node":"9.5.0"
+  },
   "dependencies": {
     "bootstrap": "4",
     "gh-pages": "^2.0.1",
